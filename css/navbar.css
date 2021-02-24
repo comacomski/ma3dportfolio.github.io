@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    height: 100vh;
+  /*  
+    width: 100%;*/
+   /* background-image: url("../slika2.jpg");*/
+}
+#wrapper{
+  position: absolute;
+  width: 90%;
+  font-family:monospace;
+  color:green;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+
+}
+#console{
+  background-color: black;
+  border: 1px solid #9c9c9c;;
+  border-radius: 25px;
+}
+#navbar{
+  padding:0.5em;
+}
+#fname{
+  background-color: black;
+  border-radius: 25px;
+  border:none;
+  color:green;
+  font-family:  monospace;
+  outline: none;
+  cursor:none;
+  width: 100%;
+}
+#comment{
+  background-color: #1c1c1c;
+  border: 1px solid #9c9c9c;
+  border-radius: 25px;
+  margin-left: 2px;
+  
+}
+#preporuke, #prvired
+{
+  margin-top:4px;
+  border: none;
+/*  border-radius: 12px;*/
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  background: rgba(0, 92, 6, 0.5);
+ /* margin-left: 1px;*/ 
+}
+#sadrzaj{
+  background: rgba(0, 92, 6, 0.5);
+ /* margin-top: 0.5%;
+  width: 90%;*/
+ /* margin-left: 0.5%;*/
+ /*height: 99%;*/
+ margin-top: 4px;
+ /*margin-left: 0.1%;*/
+ /*width: 99.5%;*/
+ /*height: 500px;*/
+ overflow: hidden;
+ padding: 2%;
+ /*padding-left: 2%;*/
+  
+}
+#sadrzaj2{
+  /*overflow-y: scroll;
+  overflow-x: hidden;*/
+  background-color: black;
+/*  margin:2%;*/
+  height: 98%;
+  overflow: hidden;
+}
+#sadrzaj0{
+ 
+  padding-left: 4px;
+  padding-right: 0%;
+  /*color: white;*/
+  
+}
+
+#p1, #p2,#p3,#p4,#p5{
+  background-color: black;
+  border: 1px solid #9c9c9c;
+  border-radius: 25px;
+  padding-left: 4px;
+  padding-right: 4px;
+
+  
+}
+div::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+div::-webkit-scrollbar-thumb {
+  background: green; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+div::-webkit-scrollbar-thumb:hover {
+  background: #035c00; 
+}
+
+#bio, #fw, #contact, #projects {
+  position: absolute;
+  overflow-y: scroll;
+  height: 95%;
+  width: 96%;
+  background-color: white;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  /*font-style: oblique;*/
+  overflow-x: hidden;
+/*  text-align: center;*/
+}
+#info{
+  margin-top: 5%;
+  background-color: black;
+  color:orange;
+  border: 1px solid white;
+ 
+}
+
+
+.carousel-item {
+  height: 250px
+}
+.carousel-image-1 {
+  background: url("../img/about.jpg")  no-repeat scroll center center / cover;
+
+}
+
+.carousel-image-2 {
+  background: url("../img/kontroler.jpg")  no-repeat scroll center center / cover;
+
+
+}
+
+.carousel-image-3 {
+  background: url("../img/web.jpg") no-repeat scroll center center / cover;
+
+}
+#home-heading , #projects, #fw, #contact{
+  position: relative;
+ /* min-height: 200px;*/
+  background: url("../img/matrix2.jpg") repeat scroll center center / cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /*text-align: center;*/
+  /*color: #fff;*/
+  color:orange;
+  height:200%;
+
+
+}
+
+.dark-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.55);
+  width: 100%;
+  height:100%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 2%;
+}
+#d1{
+  /* border: 1px solid orange;*/
+   /*width: auto;*/
+ padding-left: 2%;
+ padding-right:2%;
+ /*border-radius: 10px;*/
+ background-color: rgba(0,0,0,0.6);
+ margin-bottom: 1%;
+ padding-bottom: 2%;
+ }
+ 
+#note{
+  color:red;
+}
+#sreda{
+  text-align: center;
+  text-decoration: underline;
+}
+#naslov{
+  color:#ff7700;
+  text-align: center;
+}
